@@ -76,18 +76,18 @@ export default function SkillsPage() {
                 {group.skills.map((skill, sIdx) => (
                   <div
                     key={sIdx}
-                    className="flex items-center justify-between p-2 rounded-xl bg-[var(--surface-hover)]/60 border border-[var(--border)]/50"
+                    className="flex items-center justify-between gap-2 p-2 rounded-xl bg-[var(--surface-hover)]/60 border border-[var(--border)]/50 min-w-0"
                   >
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs sm:text-sm font-semibold text-[var(--text)]">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="text-xs sm:text-sm font-semibold text-[var(--text)] truncate">
                         {skill.name}
                       </span>
                       {skill.highlight && (
-                        <Sparkles className="w-3 h-3 text-[#7C5CFF]" />
+                        <Sparkles className="w-3 h-3 text-[#7C5CFF] shrink-0" />
                       )}
                     </div>
                     <span
-                      className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full ${getLevelColor(
+                      className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full shrink-0 ${getLevelColor(
                         skill.level
                       )}`}
                     >

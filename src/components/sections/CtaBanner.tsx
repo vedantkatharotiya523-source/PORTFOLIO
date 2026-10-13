@@ -6,9 +6,9 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function CtaBanner() {
   return (
-    <section aria-label="Call to action banner" className="max-w-6xl mx-auto px-4 sm:px-6 my-20">
+    <section aria-label="Call to action banner" className="w-full max-w-6xl mx-auto px-4 sm:px-6 my-20 overflow-hidden">
       <Reveal direction="up">
-        <div className="relative rounded-3xl border border-[rgba(124,92,255,0.35)] bg-gradient-to-r from-[rgba(124,92,255,0.08)] via-[var(--surface)] to-[rgba(34,211,238,0.08)] p-8 sm:p-14 text-center overflow-hidden">
+        <div className="relative rounded-3xl border border-[rgba(124,92,255,0.35)] bg-gradient-to-r from-[rgba(124,92,255,0.08)] via-[var(--surface)] to-[rgba(34,211,238,0.08)] p-5 sm:p-10 md:p-14 text-center overflow-hidden">
           {/* Subtle glow */}
           <div
             className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(124,92,255,0.15),transparent_70%)] pointer-events-none"
@@ -36,10 +36,10 @@ export function CtaBanner() {
                 href="/contact"
                 variant="primary"
                 size="lg"
-                className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl text-base font-bold shadow-lg shadow-[#7C5CFF]/25"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl text-sm sm:text-base font-bold shadow-lg shadow-[#7C5CFF]/25"
               >
-                <span>Book a Consultation / Hire Me</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>Hire Me / Start Project</span>
+                <ArrowRight className="w-4 h-4 shrink-0" />
               </Button>
 
               <Button
@@ -47,10 +47,12 @@ export function CtaBanner() {
                 external
                 variant="secondary"
                 size="lg"
-                className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl text-base font-semibold"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl text-sm sm:text-base font-semibold max-w-full"
               >
-                <Mail className="w-4 h-4" />
-                <span>Email: {profileData.email}</span>
+                <Mail className="w-4 h-4 shrink-0" />
+                <span className="truncate max-w-[240px] sm:max-w-none">
+                  {profileData.email}
+                </span>
               </Button>
             </div>
           </div>

@@ -22,7 +22,7 @@ export function TechMarquee() {
   return (
     <div
       aria-label="Technology stack ticker"
-      className="w-full overflow-hidden border-y border-[var(--border)] bg-[var(--surface)]/50 py-4 my-10"
+      className="w-full max-w-full overflow-hidden overflow-x-clip relative border-y border-[var(--border)] bg-[var(--surface)]/50 py-4 my-10"
     >
       <div className="animate-marquee flex items-center gap-8 whitespace-nowrap">
         {marqueeItems.map((tech, index) => (

@@ -120,7 +120,7 @@ export function ContactForm() {
           placeholder="e.g. Sarah Jenkins"
           aria-invalid={errors.name ? "true" : "false"}
           aria-describedby={errors.name ? "name-error" : undefined}
-          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-sm transition-all"
+          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-base sm:text-sm transition-all"
           {...register("name")}
         />
         {errors.name && (
@@ -146,7 +146,7 @@ export function ContactForm() {
           placeholder="e.g. sarah@company.com"
           aria-invalid={errors.email ? "true" : "false"}
           aria-describedby={errors.email ? "email-error" : undefined}
-          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-sm transition-all"
+          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-base sm:text-sm transition-all"
           {...register("email")}
         />
         {errors.email && (
@@ -166,7 +166,7 @@ export function ContactForm() {
         </label>
         <select
           id="contact-project-type"
-          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-sm transition-all cursor-pointer"
+          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-base sm:text-sm transition-all cursor-pointer"
           {...register("projectType")}
         >
           <option value="ATS with AI Calling">ATS with AI Calling</option>
@@ -189,7 +189,7 @@ export function ContactForm() {
         </label>
         <select
           id="contact-budget"
-          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-sm transition-all cursor-pointer"
+          className="w-full h-12 px-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-base sm:text-sm transition-all cursor-pointer"
           {...register("budget")}
         >
           <option value="< $2,500">&lt; $2,500</option>
@@ -214,7 +214,7 @@ export function ContactForm() {
           placeholder="Tell me about your goals, current stack, timeline, and key requirements..."
           aria-invalid={errors.message ? "true" : "false"}
           aria-describedby={errors.message ? "message-error" : undefined}
-          className="w-full p-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-sm transition-all resize-y"
+          className="w-full p-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] text-base sm:text-sm transition-all resize-y"
           {...register("message")}
         />
         {errors.message && (

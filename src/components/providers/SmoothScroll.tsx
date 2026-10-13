@@ -7,12 +7,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function SmoothScroll({ children }: { children: ReactNode }) {
   useEffect(() => {
-    // Respect prefers-reduced-motion
+    // Respect prefers-reduced-motion and touch devices (native scrolling on mobile/tablet)
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches;
+    const isTouchDevice =
+      typeof window !== "undefined" &&
+      ("ontouchstart" in window || navigator.maxTouchPoints > 0);
 
-    if (prefersReducedMotion) {
+    if (prefersReducedMotion || isTouchDevice) {
       return;
     }
 

@@ -37,7 +37,8 @@ export const viewport: Viewport = {
   ],
   width: "device-width",
   initialScale: 1,
-  maximumScale: 5,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export const metadata: Metadata = {
@@ -107,7 +108,7 @@ export default function RootLayout({ children }: ChildrenProps) {
             <ScrollProgress />
             <Cursor />
             <Navbar />
-            <main id="main-content" className="flex-1 flex flex-col pt-24 sm:pt-28">
+            <main id="main-content" className="flex-1 flex flex-col pt-24 sm:pt-28 w-full max-w-full overflow-x-clip">
               {children}
             </main>
             <Footer />

@@ -111,12 +111,16 @@ export function Navbar() {
             <Link
               href="/"
               className="group flex items-center gap-2 pl-1 py-1 text-sm font-bold tracking-tight text-[var(--text)] hover:text-[#7C5CFF] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7C5CFF] rounded-full shrink-0"
+              aria-label="Home - Vedant Katharotiya"
             >
-              <div className="relative flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-[#7C5CFF] to-[#5A38EC] text-white shadow-sm shadow-[#7C5CFF]/30 group-hover:scale-105 transition-transform">
+              <div className="relative flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-[#7C5CFF] to-[#5A38EC] text-white shadow-sm shadow-[#7C5CFF]/30 transition-transform">
                 <span className="font-mono text-xs font-black">V</span>
                 <span className="absolute -bottom-0.5 -right-0.5 w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-[var(--surface)]" />
               </div>
-
+              <span className="font-bold text-sm tracking-tight text-[var(--text)] group-hover:text-[#7C5CFF] transition-colors whitespace-nowrap">
+                <span className="hidden sm:inline">{profileData.name}</span>
+                <span className="sm:hidden">Vedant</span>
+              </span>
             </Link>
 
             {/* Live Availability Status Pill ("Something Different" Interactive Element) */}
