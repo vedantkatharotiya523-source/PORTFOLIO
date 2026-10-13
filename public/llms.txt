@@ -1,0 +1,40 @@
+# Developer Profile: [YOUR NAME]
+
+> MERN Stack Developer & AI-Powered Full-Stack Developer
+> "I build custom web applications with smart AI features built in."
+
+[YOUR NAME] is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
+
+## Canonical Information
+- Role: MERN Stack Developer & AI-Powered Full-Stack Developer
+- Location: [CITY], India (Available Worldwide Remote)
+- Primary Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, NestJS, Node.js, PostgreSQL, MongoDB
+- AI Specialization: LangChain, LangGraph, RAG Systems, Tool-Calling, Twilio Voice AI calling
+- Contact: [EMAIL]
+- GitHub: https://github.com/[GITHUB]
+- LinkedIn: https://linkedin.com/in/[LINKEDIN]
+- Last Updated: October 2026
+
+## What I Build
+1. AI-Powered ATS with Twilio AI Calling: Real-time autonomous phone interviews screening candidates, transcripts, resume scoring, hiring pipeline.
+2. Multi-Tenant CRM: Enterprise sales pipeline, leads attribution, per-tenant database isolation, duplicate detection.
+3. Smart Email / Campaign Studio: AI-generated emails, audience segmentation, spam deliverability testing.
+4. E-commerce Platforms: Custom storefronts, checkout, multi-inventory admin backends.
+5. E-commerce Scrapers & Price Intelligence: High-throughput Puppeteer scrapers, catalog diffs, automated price tracking.
+6. AI Chatbots & RAG Assistants: Grounded enterprise assistants built with LangGraph multi-step reasoning and tool execution.
+7. Custom Web Applications: End-to-end web apps tailored to client workflows with modern architecture.
+
+## Services Offered
+- Custom Web Applications Development (Full-Stack Next.js + NestJS/Node)
+- AI Agents & RAG Assistants (LangChain, LangGraph, pgvector)
+- Automated AI Voice Calling Systems (Twilio + LLM real-time streaming)
+- Multi-Tenant CRM & ATS Product Development
+- Price Intelligence & Web Scraping Automation (Puppeteer)
+- High-Performance Database Design (PostgreSQL, MongoDB)
+
+## Full Documentation
+For complete project case studies, architectural breakdown, and in-depth specs:
+- Full LLM Knowledge Base: /llms-full.txt
+- Projects Index: /projects
+- AI Architecture Lab: /ai-lab
+- Technical Insights: /insights

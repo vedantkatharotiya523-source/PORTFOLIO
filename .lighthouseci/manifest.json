@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://localhost:3000/",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\portfolio\\.lighthouseci\\localhost--2026_10_10_18_53_18.report.html",
+    "jsonPath": "D:\\portfolio\\.lighthouseci\\localhost--2026_10_10_18_53_18.report.json",
+    "summary": {
+      "performance": 0.98,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:3000/projects",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\portfolio\\.lighthouseci\\localhost-projects-2026_10_10_18_53_41.report.html",
+    "jsonPath": "D:\\portfolio\\.lighthouseci\\localhost-projects-2026_10_10_18_53_41.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 0.95,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:3000/projects/ai-powered-ats-twilio-calling",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\portfolio\\.lighthouseci\\localhost-projects_ai_powered_ats_twilio_calling-2026_10_10_18_54_02.report.html",
+    "jsonPath": "D:\\portfolio\\.lighthouseci\\localhost-projects_ai_powered_ats_twilio_calling-2026_10_10_18_54_02.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:3000/insights/how-ai-voice-calling-works-inside-an-ats",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\portfolio\\.lighthouseci\\localhost-insights_how_ai_voice_calling_works_inside_an_ats-2026_10_10_18_54_18.report.html",
+    "jsonPath": "D:\\portfolio\\.lighthouseci\\localhost-insights_how_ai_voice_calling_works_inside_an_ats-2026_10_10_18_54_18.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:3000/contact",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\portfolio\\.lighthouseci\\localhost-contact-2026_10_10_18_54_34.report.html",
+    "jsonPath": "D:\\portfolio\\.lighthouseci\\localhost-contact-2026_10_10_18_54_34.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]
