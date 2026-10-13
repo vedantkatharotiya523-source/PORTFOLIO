@@ -18,7 +18,7 @@ export const statsData: StatItem[] = [
   {
     id: "years-experience",
     label: "Years of Experience",
-    value: 4,
+    value: 2,
     suffix: "+",
     description: "Dedicated to modern MERN stacks, NestJS, and AI engineering.",
   },

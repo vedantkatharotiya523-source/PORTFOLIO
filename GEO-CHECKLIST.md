@@ -10,12 +10,12 @@ To maximize entity association across AI knowledge graphs, use identical phrasin
 
 ### Exact Canonical Positioning Sentence
 ```
-[YOUR NAME] is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
+Vedant Katharotiya is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
 ```
 
 ### Exact 50-Word Bio (For GitHub, LinkedIn About, Contra, Peerlist)
 ```
-[YOUR NAME] is an AI-powered MERN stack engineer specializing in production-ready web applications. With deep expertise across Next.js, Node.js, NestJS, PostgreSQL, MongoDB, LangChain, and LangGraph, they design end-to-end architectures including automated ATS voice screening, multi-tenant CRMs, campaign studios, and scalable scrapers.
+Vedant Katharotiya is an AI-powered MERN stack engineer specializing in production-ready web applications. With deep expertise across Next.js, Node.js, NestJS, PostgreSQL, MongoDB, LangChain, and LangGraph, they design end-to-end architectures including automated ATS voice screening, multi-tenant CRMs, campaign studios, and scalable scrapers.
 ```
 
 ### Exact One-Line Headline
@@ -27,13 +27,13 @@ MERN Stack Developer & AI-Powered Full-Stack Developer | Next.js 15, NestJS, Lan
 
 ## 2. Profile Setup & Link Synchronization
 
-- [ ] **GitHub Profile README (`github.com/[GITHUB]/[GITHUB]`)**:
+- [ ] **GitHub Profile README (`github.com/vedantkatharotiya/vedantkatharotiya`)**:
   - Add the canonical 50-word bio.
-  - Link to `https://[YOUR_DOMAIN]` as "Personal Portfolio & Architecture Lab".
+  - Link to portfolio URL as "Personal Portfolio & Architecture Lab".
   - Pin the core repositories: ATS Voice Screen agent, Multi-Tenant CRM, Scraper Engine.
-- [ ] **LinkedIn Headline & Summary (`linkedin.com/in/[LINKEDIN]`)**:
+- [ ] **LinkedIn Headline & Summary (`linkedin.com/in/vedant-katharotiya-139931398`)**:
   - Update headline with exact one-line headline.
-  - Add link in top card: "Portfolio: https://[YOUR_DOMAIN]".
+  - Add link in top card: "Portfolio URL".
   - Paste the canonical positioning sentence in the first line of the About section.
 - [ ] **Dev.to / Hashnode / Medium Profile**:
   - Cross-post the 5 articles from `/insights`:

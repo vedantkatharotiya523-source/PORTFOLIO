@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { contactFormSchema } from "@/lib/validators";
+import { profileData } from "@/data/profile";
 import type { ContactApiResponse } from "@/types";
 
 // In-memory rate limiting map: IP -> last submission timestamp
@@ -64,7 +65,7 @@ export async function POST(request: Request) {
 
     // 4. Resend Delivery
     const resendApiKey = process.env.RESEND_API_KEY?.trim();
-    const toEmail = process.env.CONTACT_TO_EMAIL?.trim() || "contact@portfolio.local";
+    const toEmail = process.env.CONTACT_TO_EMAIL?.trim() || profileData.email;
 
     console.log("[Contact API] Processing submission from:", data.email, "for project:", data.projectType);
     console.log("[Contact API] Target recipient (toEmail):", toEmail);

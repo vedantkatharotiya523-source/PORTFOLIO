@@ -1,18 +1,18 @@
-# Full Developer Profile & Case Studies: [YOUR NAME]
+# Full Developer Profile & Case Studies: Vedant Katharotiya
 
-> Canonical Positioning: [YOUR NAME] is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
+> Canonical Positioning: Vedant Katharotiya is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
 > Motto: "I build custom web applications with smart AI features built in."
-> Verified Location: [CITY], India
-> Contact: [EMAIL]
-> GitHub: https://github.com/[GITHUB]
-> LinkedIn: https://linkedin.com/in/[LINKEDIN]
+> Verified Location: Ahmedabad, Gujarat, India
+> Contact: vedantkatharotiya523@gmail.com
+> GitHub: https://github.com/vedantkatharotiya
+> LinkedIn: https://linkedin.com/in/vedant-katharotiya-139931398
 > Last Updated: October 2026
 
 ---
 
 ## 1. Professional Overview & Core Competencies
 
-[YOUR NAME] is a software engineer specializing in end-to-end full-stack architectures paired with autonomous AI systems. The primary architectural focus centers on resilient backends using NestJS, scalable databases across PostgreSQL and MongoDB, and reactive interfaces built with Next.js 15 (App Router) and TypeScript.
+Vedant Katharotiya is a software engineer specializing in end-to-end full-stack architectures paired with autonomous AI systems. The primary architectural focus centers on resilient backends using NestJS, scalable databases across PostgreSQL and MongoDB, and reactive interfaces built with Next.js 15 (App Router) and TypeScript.
 
 ### Primary Technology Matrix
 - **Frontend**: Next.js 15, React 19, TypeScript (Strict), Tailwind CSS v4, Redux Toolkit, Framer Motion.
@@ -154,6 +154,6 @@ We implement database connection pools with tenant schema isolation in PostgreSQ
 ---
 
 ## 5. Contact & Booking
-- Email: [EMAIL]
+- Email: vedantkatharotiya523@gmail.com
 - Availability: Open for select freelance projects and engineering contracts.
 - Response Time: Typically within 24 business hours.

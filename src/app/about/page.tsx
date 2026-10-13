@@ -77,7 +77,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-sm sm:text-base leading-relaxed text-[var(--text-muted)]">
-              Over the past 4+ years, I have transitioned from building standard CRUD
+              Over the past {profileData.experienceYears}+ years, I have transitioned from building standard CRUD
               interfaces to designing complex enterprise backends and autonomous multi-agent
               pipelines. I believe software engineering is about solving tangible operational
               bottlenecks—whether that means reducing recruiter call loads by 70% with Twilio

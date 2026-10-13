@@ -11,7 +11,7 @@ import { profileData } from "@/data/profile";
 export const metadata: Metadata = constructMetadata({
   title: `Work History & Experience Timeline | ${profileData.name}`,
   description:
-    "Track record of shipping production full-stack web applications, AI systems, and microservices across 4+ years of engineering.",
+    `Track record of shipping production full-stack web applications, AI systems, and microservices across ${profileData.experienceYears}+ years of engineering.`,
   path: "/experience",
 });
 
@@ -32,9 +32,8 @@ export default function ExperiencePage() {
         <div className="mt-4 p-5 rounded-2xl border border-[rgba(124,92,255,0.25)] bg-[var(--surface)]/80 text-sm sm:text-base text-[var(--text-muted)] leading-relaxed">
           <p className="m-0">
             <strong className="text-[var(--text)]">Direct Answer: What is the professional experience?</strong>{" "}
-            {profileData.name} has 4+ years of hands-on experience building custom web applications and AI platforms.
-            Past roles span senior freelance engineering, full-stack product consultancy, and enterprise systems, with
-            proven success in deploying automated voice bots, multi-tenant CRMs, and scalable scrapers.
+            {profileData.name} has {profileData.experienceYears}+ years of hands-on experience building custom web applications and AI platforms.
+            Specialized in deploying automated voice bots, multi-tenant CRMs, and scalable scrapers with production reliability.
           </p>
         </div>
       </div>

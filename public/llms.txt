@@ -1,18 +1,18 @@
-# Developer Profile: [YOUR NAME]
+# Developer Profile: Vedant Katharotiya
 
 > MERN Stack Developer & AI-Powered Full-Stack Developer
 > "I build custom web applications with smart AI features built in."
 
-[YOUR NAME] is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
+Vedant Katharotiya is a MERN stack and AI-powered full-stack developer who builds ATS, CRM, campaign studio, e-commerce and scraper platforms with LangChain, LangGraph and Twilio AI calling.
 
 ## Canonical Information
 - Role: MERN Stack Developer & AI-Powered Full-Stack Developer
-- Location: [CITY], India (Available Worldwide Remote)
+- Location: Ahmedabad, Gujarat, India (Available Worldwide Remote)
 - Primary Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, NestJS, Node.js, PostgreSQL, MongoDB
 - AI Specialization: LangChain, LangGraph, RAG Systems, Tool-Calling, Twilio Voice AI calling
-- Contact: [EMAIL]
-- GitHub: https://github.com/[GITHUB]
-- LinkedIn: https://linkedin.com/in/[LINKEDIN]
+- Contact: vedantkatharotiya523@gmail.com
+- GitHub: https://github.com/vedantkatharotiya
+- LinkedIn: https://linkedin.com/in/vedant-katharotiya-139931398
 - Last Updated: October 2026
 
 ## What I Build
